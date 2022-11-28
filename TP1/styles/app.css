@@ -1,0 +1,27 @@
+
+*{background-color: aqua;}
+table {
+    border : 1px solid black;
+    border-collapse: collapse
+    
+}
+
+tr, th, td {
+    border-collapse: separate;
+}
+
+.tab{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%
+    
+}
+
+.title{
+    text-align: center;
+}
+
+
+.link{
+    color: RED;
+}
