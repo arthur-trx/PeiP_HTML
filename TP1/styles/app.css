@@ -1,0 +1,54 @@
+
+*{background-color: aqua;}
+table {
+    border : 1px solid black;
+    border-collapse: collapse;
+}
+
+tr{
+    border-collapse: separate;
+    /*border: 100px;*/
+    /*margin-bottom: 10px;*/
+    border-spacing: 10px;
+    
+}
+td  {
+    border-collapse: separate;
+    /*border: 100px;*/
+    margin-bottom: 10px;
+
+}*/
+
+th {
+    background-color:green;
+    Color:white;
+}
+th, td {
+    width:150px;
+    border:1px solid black;
+    padding:5px
+ 
+}
+.geeks {
+    border-right:hidden;
+}
+.gfg {
+    border-collapse:separate;
+    border-spacing:0 15px;
+}
+
+.tab{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%
+    
+}
+
+.title{
+    text-align: center;
+}
+
+
+.link{
+    color: RED;
+}

@@ -1,0 +1,152 @@
+
+*{background-color: white;}
+table {
+    border : 1px solid black;
+    border-collapse: separate;
+    border-spacing : 15px;
+}
+
+tr{
+    border-collapse: separate;
+    /*border: 100px;*/
+    /*margin-bottom: 10px;*/
+    border-spacing: 10px;
+    
+}
+td  {
+    border-collapse: separate;
+    /*border: 100px;*/
+    margin-bottom: 10px;
+
+}
+
+th {
+   
+    Color:white;
+}
+th, td {
+    width:150px;
+    border:1px solid black;
+    padding:5px
+ 
+}
+.geeks {
+    border-right:hidden;
+}
+.gfg {
+    border-collapse:separate;
+    border-spacing:0 15px;
+}
+
+.tab{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%
+    
+}
+
+.title{
+
+    color: red;
+}
+
+
+.link{
+    color: RED;
+}
+.menu{
+    border-collapse: collapse;
+
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+.table_spe{
+    border-collapse: collapse;
+    margin: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bleu{
+    color:cornflowerblue;
+}
+
+p{
+    margin-right: 5%;
+}
+
+
+div {
+    display: flex;
+    justify-content: space-between;
+  }
+image{
+    padding-bottom: 20px;
+
+}
+.image_poly{
+    margin-bottom: 20px;
+   /* margin: 10px;
+    margin-left: 30px;*/
+}
+
+.q_text
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.image_youtube{
+    height: auto;
+    width: 225px;
+
+}
+
+/*modif TP3*/
+/*intro*/
+.intro_titre{
+    text-align: center;
+    color: blue;
+}
+.intro_text{
+    font-weight: bold;
+}
+/*inge*/
+.inge_titre{
+    text-align: center;
+    color: green;
+}
+/*spe*/
+.spe_titre{
+    text-align: center;
+    color: red;
+}
+.spe_text{
+    color: red;
+    font-weight: bold;
+}
+/*actu*/
+.actu_titre{
+    text-align: center;
+    color: green;
+}
+
+/*contact*/
+.contact_titre{
+text-align: center;
+    color: blue;
+}
+
+.contact_text{
+    text-align: left;
+    color: blue;
+}
+
