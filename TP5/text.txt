@@ -1,0 +1,9 @@
+         <p> voulez vous changer votre MDP ? </p>
+
+         <form action="motdepasse.php" method="post" >
+            <input 
+                type="button"
+                value="oui">
+                <?php $POST['mot_de_passe'] ?>
+            <p><input type="submit" value="OK"></p> 
+        </form>
