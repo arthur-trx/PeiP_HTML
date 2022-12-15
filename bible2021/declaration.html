@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polytech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <table class="tab_titre">
+            <tr>
+                <td class="titre_image">
+                    <image src="poly.jpg" 
+                    width="300" height="100"
+                    />
+                </td>   
+                <td class="td_titre">
+                    <h1 class="titre">Polytech Olréans - Université d'Orléans</h1>
+                </td>         
+            </tr>
+        </table>
+    </div>
+    
+    <p>vgchyfxtsrdyfugikbjhvgcfxrstdyfugkbhvgjcd</p>
+
+    <form action="recap.php" method="post">
+        <table class="table_form">
+            <tr>
+                <td>
+                    <p><b>Civilité : </b></p>
+                </td>
+                <td>
+                    <input type="radio" id="gender1" name="gender" value="Madame" />
+                    <label for="gender1">Madame</label>
+      
+                     <input type="radio" id="gender2" name="gender" value="Monsieur" />
+                    <label for="gender2">Monsieur</label>
+                </td>
+            </tr>
+           <tr>
+                <td>
+                    <p><b>Nom : </b></p>
+                </td>
+                <td>
+                    <input type="text" name="nom" minlength="4" required>
+                </td>
+           </tr>
+           <tr>
+                <td>
+                    <p><b>Prenom : </b></p>
+                </td>
+                <td>
+                    <input type="text" name="prenom" minlength="4" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><b>Années d'inscription : </b></p>
+                </td>
+                <td>
+                    <select name="inscription">
+                        <option value="">--Please choose an option--</option>
+                        <option value="1A">1A</option>
+                        <option value="2A">2A</option>
+                        <option value="3A">3A</option>
+                        <option value="4A">4A</option>
+                        <option value="5A">5A</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><b>Spécialité (si inscription en cycle ingénieur) : </b></p>
+                </td>
+                <td>
+                    <input type="text" name="spe">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><b>Motif de l'absence : </b></p>
+                </td>
+                <td>
+                    <input type="text" rows="10" cols="90"  name="motif" minlength="4" required\>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><b>Date de debut de votre absence : </b></p>
+                </td>
+                <td>
+                    <input type="date" name="date_debut" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><b>Date de fin de votre absence : </b></p>
+                </td>
+                <td>
+                    <input type="date" name="date_fin" required>
+                </td>
+            </tr>
+        </table>
+        <p><center><input type="submit" value="Soumettre votre déclaration"></center></p> 
+    </form>
+</body>
+</html>
