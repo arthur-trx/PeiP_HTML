@@ -1,0 +1,41 @@
+.titre{
+    color: red;
+    text-align: center;
+
+
+}
+.intro{
+    color : blue;
+
+}
+
+.form{
+    margin-left: 30px;
+}
+    
+.button{
+    margin-left: 40px;
+}
+
+.image{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.choix{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border-collapse: collapse;  
+    border-bottom: 50px;
+}
+
+.td_choix{
+    border: 2px solid black;
+    
+    width: 25%;
+    text-align: center;
+}
+.vert{
+    color: green;
+}
