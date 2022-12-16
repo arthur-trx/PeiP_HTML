@@ -1,0 +1,78 @@
+.titre{
+    color: red;
+    text-align: center;
+    text-shadow: 2px 2px 5px  rgb(56, 54, 54);
+
+
+}
+
+.intro{
+    color : darkblue;
+    text-shadow: 2px 2px 5px  rgb(56, 54, 54);
+
+}
+
+.form{
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 0px !important;
+}
+    
+.button{
+    margin-left: 40px;
+}
+
+.image{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.choix{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    border-collapse: collapse;  
+    margin-bottom: 50px;
+
+}
+
+.td_choix{
+    border: 2px solid black;
+    
+    width: 25%;
+    text-align: center;
+}
+.vert{
+    color: green;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px  rgb(56, 54, 54);
+}
+a{
+    color: darkblue;
+    text-shadow: 2px 2px 5px  rgb(56, 54, 54);
+}
+
+.mystere{
+    font-weight: bold;
+    text-shadow: 2px 2px 5px  rgb(56, 54, 54);
+}
+.info{
+    text-shadow: 2px 2px 5px  rgb(56, 54, 54);
+}
+.group{
+    box-shadow: 0 0 7px black;
+    border-width: 0px;
+    padding: 20px;
+    margin-right: 50%;
+}
+.td_info{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.paragraphe{
+    font-weight: bold;
+    text-shadow: 2px 2px 5px  rgb(56, 54, 54);
+    font-size: medium;
+}
+    
